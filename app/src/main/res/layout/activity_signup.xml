@@ -24,7 +24,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="32dp"
-                android:src="@drawable/logo"
+                android:src="@drawable/vegetables_vector"
                 android:contentDescription="App Logo" />
 
             <!-- Signup Form Container -->

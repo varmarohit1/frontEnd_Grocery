@@ -151,6 +151,15 @@
                             android:alpha="0.5"
                             android:background="@drawable/shape_indicator_inactive" />
                     </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="$4.99"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </FrameLayout>
             </androidx.cardview.widget.CardView>
 
@@ -193,6 +202,7 @@
 
                 <!-- Organic Bananas Card -->
                 <androidx.cardview.widget.CardView
+
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -208,6 +218,7 @@
                         android:padding="12dp">
 
                         <ImageView
+                            android:id="@+id/organicbanana"
                             android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:scaleType="centerInside"
@@ -236,15 +247,6 @@
                             android:layout_marginTop="8dp"
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="$4.99"
-                                android:textColor="#000000"
-                                android:textSize="18sp"
-                                android:textStyle="bold" />
 
                             <FrameLayout
                                 android:layout_width="32dp"
@@ -373,6 +375,7 @@
 
                 <!-- Organic Bananas Card -->
                 <androidx.cardview.widget.CardView
+
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
