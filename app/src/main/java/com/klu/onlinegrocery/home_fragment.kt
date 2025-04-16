@@ -6,8 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
 import com.klu.onlinegrocery.databinding.FragmentHomeFragmentBinding
 
 
@@ -23,6 +21,13 @@ class home_fragment : Fragment() {
         // Navigate to BananalayoutActivity on click
         binding.organicbanana.setOnClickListener {
             val intent = Intent(requireActivity(), BananalayoutActivity::class.java)
+
+            // Send item data using intent extras
+            intent.putExtra("itemImage", R.drawable.organic_bananas)
+            intent.putExtra("itemName", "Organic Bananas")
+            intent.putExtra("itemDescription", "Fresh and naturally ripened bananas.")
+            intent.putExtra("itemPrice", "₹99")
+
             startActivity(intent)
         }
 

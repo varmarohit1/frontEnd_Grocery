@@ -63,12 +63,12 @@
 
         <!-- Fresh Fruits & Vegetables -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/Fresh_Fruits"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
-            app:cardBackgroundColor="#E8F5E9"
             app:cardCornerRadius="16dp"
             app:cardElevation="0dp">
 
@@ -80,10 +80,10 @@
                 android:padding="16dp">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/fruits_vegetables" />
+                    android:src="@drawable/grapes" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -99,6 +99,7 @@
 
         <!-- Cooking Oil & Ghee -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/cookingOilGhee"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -116,10 +117,10 @@
                 android:padding="16dp">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="120dp"
+                    android:layout_height="107dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/img_2" />
+                    android:src="@drawable/sunflower_oil" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -135,6 +136,7 @@
 
         <!-- Meat & Fish -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/Meat_Fish"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -152,10 +154,10 @@
                 android:padding="16dp">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/img_3" />
+                    android:src="@drawable/chicken" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -171,6 +173,7 @@
 
         <!-- Bakery & Snacks -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/Bakery_Snacks"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -207,6 +210,7 @@
 
         <!-- Dairy & Eggs -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/Dairy_Eggs"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -224,10 +228,10 @@
                 android:padding="16dp">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/img_5" />
+                    android:src="@drawable/eggs" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -243,6 +247,7 @@
 
         <!-- Beverages -->
         <androidx.cardview.widget.CardView
+            android:id="@+id/Beverages"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -260,8 +265,8 @@
                 android:padding="16dp">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:scaleType="centerInside"
                     android:src="@drawable/img_6" />
 
